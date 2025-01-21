@@ -18,7 +18,7 @@ jobs:
 
       - name: SSH into EC2 Instance
         run: |
-          ssh -o StrictHostKeyChecking=no ubuntu@your-ec2-public-ip << 'EOF'
+          ssh -o StrictHostKeyChecking=no ubuntu@13.51.79.236 << 'EOF'
           echo "Connected to EC2 instance!"
           # Add your commands here
           EOF
